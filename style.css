@@ -1,0 +1,111 @@
+body {
+	background: white;
+	font-weight: bold;
+	text-align: center;
+	background-color: #666;
+	color: whitesmoke;
+	overflow: hidden;
+	font-family: ‘Lucida Console’, Monaco, monospace;
+	font-size: 1.4em;
+}
+
+.main {
+	padding: 3em;
+  padding-top: 1em;
+}
+
+.controlls {
+	margin: auto;
+	width: 428px;
+	height: 10px;
+	padding: 0.5em 0 0 0;
+	background-color: lightgrey;
+	text-align: left;
+	border-radius: 6px;
+}
+
+.rbtn-red {
+	width: 10px;
+	height: 10px;
+	background: rgb(255, 97, 89);
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin-left: 7px;
+	margin-top: -8px;
+	cursor: pointer;
+}
+.rbtn-yellow {
+	width: 10px;
+	height: 10px;
+	background: rgb(255, 191, 47);
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin-left: 22px;
+	margin-top: -10px;
+	cursor: pointer;
+}
+.rbtn-green {
+	width: 10px;
+	height: 10px;
+	background: rgb(37, 204, 62);
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin-left: 38px;
+	margin-top: -9.4px;
+	cursor: pointer;
+}
+
+#terminal {
+	margin: auto;
+	width: 428px;
+	height: 375px;
+	margin-top: -5px;
+	padding: 0.5em 0 0.5em 0;
+	background-color: black;
+	text-align: left;
+	border-radius: 0 0 6px 6px;;
+}
+
+#terminal>div {
+	display: block;
+	white-space: pre;
+	color: inherit;
+	font-size: 0.5em;
+	margin-left: 0.5em;
+}
+
+#terminal>div:before{
+	content: attr(lineNum) "";
+	color: #555;
+}
+
+#game {
+	font: 12px;
+	color: yellow;
+	padding-left: 2em;
+	margin-top: -355px;
+}
+
+.btn {
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+	padding: 0.4em;
+	border: solid 1px white;
+	display: inline-block;
+}
+
+.footer {
+	font-size: 0.5em;
+}
+
+a {
+	color: inherit;
+}
+
+.subheading {
+	font-size: 0.7em;
+}
